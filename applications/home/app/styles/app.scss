@@ -1,18 +1,20 @@
-/* STYLE GUIDE */
-//$font-family-sans-serif: "Helvetica Neue", sans-serif !default;
-//$display-font-family: "Helvetica Neue", sans-serif !default;
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poetsen+One&display=swap');
 
-//$primary:       #0000ff !default;
-//$secondary:     #cccccc !default;
-//$success:       #00ff00 !default;
-//$info:          #00ffff !default;
-//$warning:       #ffff00 !default;
-//$danger:        #ff0000 !default;
-//$light:         #eeeeee !default;
-//$dark:          $333333 !default;
+$font-family-sans-serif: "Poetsen One", sans-serif !default;
+$display-font-family: "Lato", sans-serif !default;
+
+$primary:       #0A05A3 !default;
+$secondary:     #5F0F40 !default;
+$success:       #0F5C3D !default;
+$info:          #CB4721 !default;
+$warning:       #FB8B24 !default;
+$danger:        #9A031E !default;
+$light:         #DEDEDE !default;
+$dark:          #232323 !default;
 /* /STYLE GUIDE */
 
-$enable-rounded: false !default;
+$enable-rounded: true !default;
 $enable-negative-margins:     true !default;
 $enable-cssgrid:              true !default;
 
